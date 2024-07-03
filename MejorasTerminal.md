@@ -52,7 +52,7 @@ fc-cache -fv
 Abrir terminator (ctrl+alt+t)
 Cambiar las fonts MesloLGS
 Tamaño 12
-copnfigurar Powerlevel10k: YYYY 111 221 411 22n 1y
+Ejemplo de configuracion de Powerlevel10k: YYY1Y 111 221 411 22n 1y
 
 ## Cambio de Fondo
 **Descripción**: Cambia el fondo de escritorio descargando una nueva imagen y configurándola como el fondo actual utilizando gsettings.
