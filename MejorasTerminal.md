@@ -131,4 +131,3 @@ ${color green}Connections TCP:$color ${tcp_portmon 1 65535 count}
 ]];
 ```
 
-## Instalación
