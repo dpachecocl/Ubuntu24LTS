@@ -49,10 +49,10 @@ sudo mv MesloLGS\ NF\ *.ttf /usr/local/share/fonts/
 fc-cache -fv
 ```
 
-Abrir terminator (ctrl+alt+t)
-Cambiar las fonts MesloLGS
-Tamaño 12
-Ejemplo de configuracion de Powerlevel10k: YYY1Y 111 221 411 22n 1y
+* Abrir terminator (ctrl+alt+t)
+* Cambiar las fonts MesloLGS
+* Tamaño 12
+* Ejemplo de configuracion de Powerlevel10k: YYY1Y 111 221 411 22n 1y
 
 ## Cambio de Fondo
 **Descripción**: Cambia el fondo de escritorio descargando una nueva imagen y configurándola como el fondo actual utilizando gsettings.
