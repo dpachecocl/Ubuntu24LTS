@@ -1,4 +1,4 @@
-#Mejoras de la terminal
+# Mejoras de la terminal
 ## Actualización
 
 **Descripción**: Actualiza la lista de paquetes disponibles y sus versiones, luego instala las últimas versiones de todos los paquetes actualmente instalados en el sistema.
