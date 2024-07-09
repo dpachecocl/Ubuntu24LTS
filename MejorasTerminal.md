@@ -39,6 +39,14 @@ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/
 sudo apt install zsh-autosuggestions
 sudo apt install zsh-syntax-highlighting
 ```
+## Configuración de Plugins
+**Descripción**: Configura el archivo ~/.zshrc para habilitar los plugins
+```
+echo "#Plugins" >> ~/.zshrc
+echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+```
+
 ## Descarga Fonts
 **Descripción**: Descarga y mueve las fuentes MesloLGS NF a la carpeta de fuentes del sistema, luego actualiza el caché de fuentes para que estén disponibles en la terminal.
 ```
