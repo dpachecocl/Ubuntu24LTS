@@ -40,7 +40,7 @@ sudo apt install zsh-autosuggestions
 sudo apt install zsh-syntax-highlighting
 ```
 ## Configuración de Plugins
-**Descripción**: Configura el archivo ~/.zshrc para habilitar los plugins
+**Descripción**: Configura el archivo ~/.zshrc para habilitar los plugins.
 ```
 echo "#Plugins" >> ~/.zshrc
 echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
