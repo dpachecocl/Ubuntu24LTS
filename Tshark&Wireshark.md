@@ -11,7 +11,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 sudo apt-get install tshark -y
 ```
-**Nota**: Antes de finalizar la instalación, se debe indicar si se dará permiso a los usuarios no privilegiados para capturar datos. Con esta configuración se puede ejecutar tshark pero no reconoce todas las interfaces si no se ejecuta con privilegios de superusuario (`sudo`)
+**Nota**: Antes de finalizar la instalación, se debe indicar si se dará permiso a los usuarios no privilegiados para capturar datos. Con esta configuración se puede ejecutar tshark pero no reconoce todas las interfaces si no se ejecuta con privilegios de superusuario (`sudo`). En este caso si daremos permiso.
 
 ## Configurar permisos para realizar capturas sin requerir permisos de superusuario
 ```
