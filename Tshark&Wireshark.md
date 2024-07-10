@@ -6,7 +6,7 @@
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-## instalacion de Tshark
+## Instalacion de Tshark
 **Descripción**: instala tshark en Ubuntu, solicita algunas confirmaciones adicionales
 ```
 sudo apt-get install tshark -y
