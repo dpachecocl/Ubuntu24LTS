@@ -14,6 +14,7 @@ sudo apt-get install tshark -y
 **Nota**: Antes de finalizar la instalación, se debe indicar si se dará permiso a los usuarios no privilegiados para capturar datos. Con esta configuración se puede ejecutar tshark pero no reconoce todas las interfaces si no se ejecuta con privilegios de superusuario (`sudo`). En este caso si daremos permiso.
 
 ## Configurar permisos para realizar capturas sin requerir permisos de superusuario
+**Descripción:** Este comando añade al usuario `lesand` al grupo `wireshark`, permitiéndole acceder a los recursos y permisos asociados a ese grupo.
 ```
 sudo usermod -aG wireshark lesand
 ```
@@ -24,9 +25,7 @@ sudo usermod -aG wireshark lesand
 - `wireshark`: Es el nombre del grupo al que se añadirá el usuario.
 - `lesand`: Es el nombre del usuario que se añadirá al grupo `wireshark`.
 
-**Descripción:** Este comando añade al usuario `lesand` al grupo `wireshark`, permitiéndole acceder a los recursos y permisos asociados a ese grupo.
-
-
+**Descripción:** Este comando cambia el grupo propietario del archivo `/usr/bin/dumpcap` al grupo `wireshark`.
 ```
 sudo chgrp wireshark /usr/bin/dumpcap
 ```
@@ -36,7 +35,7 @@ sudo chgrp wireshark /usr/bin/dumpcap
 - `wireshark`: Es el nuevo grupo propietario.
 - `/usr/bin/dumpcap`: Es el archivo al que se le cambiará el grupo propietario.
 
-**Descripción:** Este comando cambia el grupo propietario del archivo `/usr/bin/dumpcap` al grupo `wireshark`.
+
 
 
 ```
