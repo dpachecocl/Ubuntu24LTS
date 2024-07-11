@@ -35,9 +35,7 @@ sudo chgrp wireshark /usr/bin/dumpcap
 - `wireshark`: Es el nuevo grupo propietario.
 - `/usr/bin/dumpcap`: Es el archivo al que se le cambiará el grupo propietario.
 
-
-
-
+**Descripción:** Este comando establece los permisos del archivo `/usr/bin/dumpcap` a 750, otorgando permisos de lectura, escritura y ejecución al propietario, permisos de lectura y ejecución al grupo, y ningún permiso a otros usuarios.
 ```
 sudo chmod 750 /usr/bin/dumpcap
 ```
@@ -47,9 +45,7 @@ sudo chmod 750 /usr/bin/dumpcap
 - `750`: Especifica los nuevos permisos del archivo. En este caso, el propietario tendrá permisos de lectura, escritura y ejecución (7), el grupo tendrá permisos de lectura y ejecución (5), y otros no tendrán ningún permiso (0).
 - `/usr/bin/dumpcap`: Es el archivo cuyos permisos se cambiarán.
 
-**Descripción:** Este comando establece los permisos del archivo `/usr/bin/dumpcap` a 750, otorgando permisos de lectura, escritura y ejecución al propietario, permisos de lectura y ejecución al grupo, y ningún permiso a otros usuarios.
-
-
+**Descripción:** Este comando otorga al archivo `/usr/bin/dumpcap` las capacidades `cap_net_raw` y `cap_net_admin`, permitiendo que este archivo realice operaciones de red sin necesidad de privilegios de superusuario.
 ```
 sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
 ```
@@ -59,8 +55,7 @@ sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
 - `cap_net_raw,cap_net_admin=eip`: Especifica las capacidades a establecer. `cap_net_raw` permite el uso de paquetes sin procesar (raw packets) y `cap_net_admin` permite varias operaciones administrativas de red. `eip` significa que estas capacidades se aplican al archivo cuando se ejecuta (effective, inherited, permitted).
 - `/usr/bin/dumpcap`: Es el archivo al que se le establecerán las capacidades.
 
-**Descripción:** Este comando otorga al archivo `/usr/bin/dumpcap` las capacidades `cap_net_raw` y `cap_net_admin`, permitiendo que este archivo realice operaciones de red sin necesidad de privilegios de superusuario.
-
+**Descripción:** Este comando reinicia el sistema operativo par que se apliquen los cambios anterires.
 ```
 reboot
 ```
