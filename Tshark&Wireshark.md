@@ -62,9 +62,12 @@ sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
 
 **Descripción:** Este comando otorga al archivo `/usr/bin/dumpcap` las capacidades `cap_net_raw` y `cap_net_admin`, permitiendo que este archivo realice operaciones de red sin necesidad de privilegios de superusuario.
 
+```
+reboot
+```
 ## Instalacion de Wireshark
 **Descripción**: instala Wireshark en Ubuntu.
 ```
-sudo apt-get install tshark -y
+sudo apt-get install wireshark -y
 ```
 
