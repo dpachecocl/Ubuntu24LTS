@@ -140,3 +140,20 @@ ${color green}Connections TCP:$color ${tcp_portmon 1 65535 count}
 ]];
 ```
 
+## Iniciar automaticamente Conky al reiniciar el sistema
+```
+cd
+echo -e '#!/bin/bash\nsleep 10 && conky -d' > ~/start_conky.sh
+chmod +x ~/start_conky.sh
+mkdir -p ~/.config/autostart
+cat > ~/.config/autostart/conky.desktop <<EOL
+[Desktop Entry]
+Type=Application
+Exec=$HOME/start_conky.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Conky
+Comment=Start Conky at login
+EOL
+```
