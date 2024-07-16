@@ -139,6 +139,10 @@ ${color green}Connections TCP:$color ${tcp_portmon 1 65535 count}
 
 ]];
 ```
+Luego guardar el archivo:
+- Ctrl + O: Guardar el archivo (Output).
+- Enter:` Confirmar el nombre del archivo.
+- Ctrl + X: Salir de nano.
 
 ## Iniciar automaticamente Conky al reiniciar el sistema
 ```
