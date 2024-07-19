@@ -57,6 +57,7 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20I
 wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 sudo mv MesloLGS\ NF\ *.ttf /usr/local/share/fonts/
 fc-cache -fv
+exit
 ```
 
 * Abrir terminator (ctrl+alt+t)
