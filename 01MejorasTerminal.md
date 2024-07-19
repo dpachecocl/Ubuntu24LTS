@@ -19,6 +19,7 @@ sudo apt-get install terminator -y
 **Descripción**: Instala Oh My Zsh, un framework de gestión para la configuración de ZSH, que proporciona temas y plugins para mejorar la experiencia en la terminal.
 ```
 echo "Y" | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s $(which zsh)
 ```
 
 ## Instalación Powerlevel10K
