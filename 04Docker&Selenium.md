@@ -26,6 +26,9 @@ virtualenv ENV-SELENIUM -p python3
 source ENV-SELENIUM/bin/activate
 ```
 ```
+pip install selenium
+```
+```
 sudo docker run -d -p 4444:4444 --name selenium-chrome selenium/standalone-chrome
 ```
 ```
