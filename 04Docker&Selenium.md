@@ -37,6 +37,7 @@ sudo docker run -d -p 4444:4444 --name selenium-chrome selenium/standalone-chrom
 mkdir /home/lesand/Desktop/tools/selenium
 cd /home/lesand/Desktop/tools/selenium
 ```
+### Archivo de prueba selenium
 ```
 nano selenium01.py
 ```
