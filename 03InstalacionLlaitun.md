@@ -28,9 +28,20 @@ cd /usr/lib/x86_64-linux-gnu/
 sudo ln -s -f libc.a liblibc.a
 ```
 ```
-cd /home/lesand/Desktop/tools/Llaitun/
+cdLlaitun/
 pip install -r requirements.txt
 ```
 ```
 sudo $(which python) Llaitun.py
+```
+## Desactivar ambiente virtual
+Para desactivar el ambiente virtual se usa el siguiente comando
+```
+deactivate
+```
+## Activar ambiente virtual
+Para activar el ambiente virtual nuevamente se usa el siguiente comando
+```
+cd /home/lesand/Desktop/tools/
+source ENV3.7/bin/activate   
 ```
