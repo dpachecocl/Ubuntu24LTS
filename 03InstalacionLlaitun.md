@@ -20,15 +20,15 @@ sudo apt install python3.7-distutils -y
 ```
 ```
 sudo apt-get install virtualenv -y
-virtualenv ENV3.7 -p python3.7
-source ENV3.7/bin/activate
+virtualenv ENV-LLAITUN -p python3.7
+source ENV-LLAITUN/bin/activate
 ```
 ```
 cd /usr/lib/x86_64-linux-gnu/
 sudo ln -s -f libc.a liblibc.a
 ```
 ```
-cdLlaitun/
+cd /home/lesand/Desktop/tools/Llaitun/
 pip install -r requirements.txt
 ```
 ```
